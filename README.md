@@ -54,7 +54,7 @@ Un sistema de chat en tiempo real con cifrado SSL, gestión de salas y panel de 
 1. **Clonar el repositorio**
    ```bash
    git clone https://github.com/j-liszt/chat-ssl
-   cd nanochat
+   cd chat-ssl
    ```
 
 2. **Instalar dependencias**
@@ -273,7 +273,7 @@ data = json.loads(decrypted_data.decode('utf-8'))
 ## 📁 Estructura de Archivos
 
 ```
-nanochat/
+chat-ssl/
 ├── backend_chat_server.py    # Servidor principal
 ├── client.py                 # Cliente de chat
 ├── dashboard.py              # Panel de administración
