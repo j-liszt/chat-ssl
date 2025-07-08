@@ -1,4 +1,4 @@
-# NanoChat - Sistema de Chat Seguro
+# ChatSSL - Sistema de Chat Seguro
 
 Un sistema de chat en tiempo real con cifrado SSL, gestión de salas y panel de administración.
 
@@ -133,7 +133,7 @@ python client.py
 
 ### Arquitectura de Seguridad Multicapa
 
-El sistema NanoChat implementa múltiples capas de seguridad para garantizar la confidencialidad e integridad de las comunicaciones:
+El sistema ChatSSL implementa múltiples capas de seguridad para garantizar la confidencialidad e integridad de las comunicaciones:
 
 #### 1. Cifrado SSL/TLS (Capa de Transporte)
 
